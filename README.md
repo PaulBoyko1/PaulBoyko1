@@ -1,36 +1,23 @@
-<div align="center">
-  <img src="./typing.svg" alt="Paul Boyko — Computer Science at UC Davis" width="100%" />
-</div>
+<img src="./typing.svg" alt="Paul Boyko — Computer Science at UC Davis" width="100%" />
+
+### / selected projects
+
+**01 / [Crypto Interval Analyzer](https://github.com/PaulBoyko1/BTC)**  
+Live 15-minute and 1-hour market research with API data, strategy testing, walk-forward validation, and statistical diagnostics.  
+`Python` / `FastAPI` / `TypeScript`
+
+—
+
+**02 / [Mandelbrot Explorer](https://github.com/PaulBoyko1/Mandelbrot)**  
+Interactive C++ fractal renderer with mouse-centered zoom, complex-plane mapping, and iteration-based colorization.  
+`C++` / `SFML`
+
+—
+
+**03 / [Particle Engine](https://github.com/PaulBoyko1/Particles)**  
+Interactive particle simulation with click-to-spawn behavior, time-based updates, lifecycle cleanup, and unit testing.  
+`C++` / `SFML`
 
 <br />
 
-<p align="center">
-  I like building systems where ideas can be <b>tested, measured, and improved</b> — from interactive C++ simulations to data-driven research tools.
-</p>
-
-<br />
-
-<h2 align="center">Selected work</h2>
-
-<p align="center">
-  <a href="https://github.com/PaulBoyko1/BTC"><img src="./research-card.svg" alt="Interval Research Platform" width="49%" /></a>
-  <a href="https://github.com/PaulBoyko1/Mandelbrot"><img src="./mandelbrot-card.svg" alt="Mandelbrot Explorer" width="49%" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/PaulBoyko1/Particles"><img src="./particles-card.svg" alt="Particle Engine" width="100%" /></a>
-</p>
-
-<br />
-
-<h2 align="center">What I’m drawn to</h2>
-
-<p align="center">
-  <b>Software engineering</b> &nbsp;·&nbsp; <b>Machine learning</b> &nbsp;·&nbsp; <b>Systems</b> &nbsp;·&nbsp; <b>Simulation</b> &nbsp;·&nbsp; <b>Quantitative research</b>
-</p>
-
-<br />
-
-<p align="center">
-  <sub>Clear code. Reproducible experiments. Useful software.</sub>
-</p>
+<sub>/ more projects coming soon — this section will grow as I build them.</sub>
