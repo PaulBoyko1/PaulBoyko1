@@ -1,26 +1,9 @@
 <div align="center">
-
-# Paul Boyko
-
-### Computer Science • Software Engineering • Machine Learning
-
-<img src="./terminal.svg" alt="Animated terminal introduction" width="760" />
-
+  <img src="./typing.svg" alt="Animated introduction" width="900" />
 </div>
 
----
+## About me
 
-### About
+Computer Science student interested in software engineering, machine learning, systems, simulations, and data-driven applications.
 
-Computer Science student interested in building practical software, intelligent systems, simulations, and data-driven tools.
-
-### Current focus
-
-- Python and C++
-- Machine learning and quantitative research
-- Backend systems and APIs
-- Interactive software projects
-
----
-
-> This profile is currently being built.
+I primarily work with **Python** and **C++**, and I enjoy turning ideas into complete, usable projects.
