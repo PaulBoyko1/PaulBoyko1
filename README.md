@@ -1,4 +1,4 @@
-<img src="./typing.svg" alt="Paul Boyko ASCII intro" width="100%" />
+<img src="./typing.svg?v=2" alt="Paul Boyko ASCII intro" width="100%" />
 
 ## projects/
 
