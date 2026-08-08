@@ -1,60 +1,36 @@
-# Paul Boyko
+<div align="center">
+  <img src="./typing.svg" alt="Paul Boyko — Computer Science at UC Davis" width="100%" />
+</div>
 
-**Computer Science @ UC Davis** · Software Engineering · Machine Learning · Systems
+<br />
 
-<img src="./typing.svg" alt="Animated description of what Paul builds" width="100%" />
+<p align="center">
+  I like building systems where ideas can be <b>tested, measured, and improved</b> — from interactive C++ simulations to data-driven research tools.
+</p>
 
-I build practical software around **data, experimentation, and measurable feedback**—from interactive C++ simulations to market-research systems with live APIs, backtesting, and statistical validation.
+<br />
 
-## Selected work
+<h2 align="center">Selected work</h2>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<p align="center">
+  <a href="https://github.com/PaulBoyko1/BTC"><img src="./research-card.svg" alt="Interval Research Platform" width="49%" /></a>
+  <a href="https://github.com/PaulBoyko1/Mandelbrot"><img src="./mandelbrot-card.svg" alt="Mandelbrot Explorer" width="49%" /></a>
+</p>
 
-### [Crypto Interval Analyzer](https://github.com/PaulBoyko1/BTC)
+<p align="center">
+  <a href="https://github.com/PaulBoyko1/Particles"><img src="./particles-card.svg" alt="Particle Engine" width="100%" /></a>
+</p>
 
-Fixed-expiry cryptocurrency research platform for exact 15-minute and one-hour windows. It combines live Binance market data, prediction-market comparison, strategy presets, historical backtesting, walk-forward validation, bootstrap diagnostics, and calibration gates.
+<br />
 
-`Python` `FastAPI` `TypeScript`
+<h2 align="center">What I’m drawn to</h2>
 
-</td>
-<td width="50%" valign="top">
+<p align="center">
+  <b>Software engineering</b> &nbsp;·&nbsp; <b>Machine learning</b> &nbsp;·&nbsp; <b>Systems</b> &nbsp;·&nbsp; <b>Simulation</b> &nbsp;·&nbsp; <b>Quantitative research</b>
+</p>
 
-### [Mandelbrot Explorer](https://github.com/PaulBoyko1/Mandelbrot)
+<br />
 
-Interactive fractal renderer built with C++ and SFML. Supports full-screen rendering, mouse-centered zoom, complex-plane coordinate mapping, and iteration-based colorization.
-
-`C++` `SFML`
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-### [Particle Engine](https://github.com/PaulBoyko1/Particles)
-
-Interactive SFML particle system with click-to-spawn behavior, time-based lifecycle updates, automatic cleanup, and built-in unit testing.
-
-`C++` `SFML`
-
-</td>
-</tr>
-</table>
-
-## What I focus on
-
-- **Software engineering** — turning ideas into complete, usable systems rather than isolated demos.
-- **Machine learning & quantitative research** — testing models and strategies with chronological validation, baselines, and realistic evaluation.
-- **Simulation & visualization** — using C++ to make mathematical and systems concepts interactive.
-- **Backend systems & APIs** — connecting real data sources to reliable application logic.
-
-## Toolkit
-
-**Languages** · `Python` `C++` `TypeScript` `JavaScript`  
-**Tools & frameworks** · `FastAPI` `Git` `SFML` `REST APIs`  
-**Interests** · `Machine Learning` `Algorithms` `Systems` `Quantitative Research` `Simulation`
-
----
-
-<sub>I care about clear code, reproducible experiments, and building things that can be measured—not just demonstrated.</sub>
+<p align="center">
+  <sub>Clear code. Reproducible experiments. Useful software.</sub>
+</p>
