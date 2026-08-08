@@ -1,86 +1,52 @@
-<svg viewBox="0 0 960 310" width="960" height="310" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Paul Boyko — Computer Science at UC Davis">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#f7f9ff"/>
-      <stop offset="55%" stop-color="#f7fbff"/>
-      <stop offset="100%" stop-color="#faf7ff"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0969da"/>
-      <stop offset="52%" stop-color="#1f9dff"/>
-      <stop offset="100%" stop-color="#8250df"/>
-    </linearGradient>
-    <radialGradient id="orb1">
-      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.30"/>
-      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="orb2">
-      <stop offset="0%" stop-color="#a371f7" stop-opacity="0.24"/>
-      <stop offset="100%" stop-color="#a371f7" stop-opacity="0"/>
-    </radialGradient>
-    <clipPath id="typeClip">
-      <rect x="74" y="145" width="0" height="52">
-        <animate attributeName="width" dur="18s" repeatCount="indefinite" values="0;0;620;620;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" keyTimes="0;0.02;0.10;0.19;0.23;0.25;0.27;0.35;0.44;0.48;0.50;0.52;0.60;0.69;0.73;0.75;0.77;0.85;0.94;0.98;0.985;0.99;0.992;0.994;0.996;0.998;1"/>
-      </rect>
-    </clipPath>
-    <clipPath id="typeClip2">
-      <rect x="74" y="145" width="0" height="52">
-        <animate attributeName="width" dur="18s" repeatCount="indefinite" values="0;0;0;0;0;0;0;620;620;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0" keyTimes="0;0.02;0.10;0.19;0.23;0.25;0.27;0.35;0.44;0.48;0.50;0.52;0.60;0.69;0.73;0.75;0.77;0.85;0.94;0.98;0.985;0.99;0.992;0.994;0.996;0.998;1"/>
-      </rect>
-    </clipPath>
-    <clipPath id="typeClip3">
-      <rect x="74" y="145" width="0" height="52">
-        <animate attributeName="width" dur="18s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;620;620;0;0;0;0;0;0;0;0;0;0;0;0" keyTimes="0;0.02;0.10;0.19;0.23;0.25;0.27;0.35;0.44;0.48;0.50;0.52;0.60;0.69;0.73;0.75;0.77;0.85;0.94;0.98;0.985;0.99;0.992;0.994;0.996;0.998;1"/>
-      </rect>
-    </clipPath>
-    <clipPath id="typeClip4">
-      <rect x="74" y="145" width="0" height="52">
-        <animate attributeName="width" dur="18s" repeatCount="indefinite" values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;620;620;0;0;0;0;0;0;0;0" keyTimes="0;0.02;0.10;0.19;0.23;0.25;0.27;0.35;0.44;0.48;0.50;0.52;0.60;0.69;0.73;0.75;0.77;0.85;0.94;0.98;0.985;0.99;0.992;0.994;0.996;0.998;1"/>
-      </rect>
-    </clipPath>
-  </defs>
+<svg viewBox="0 0 960 255" width="960" height="255" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Paul Boyko — Computer Science at UC Davis">
   <style>
-    .panel { fill: url(#bg); stroke: #d8dee4; stroke-width: 1.4; }
-    .kicker { fill: #57606a; font: 700 12px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; letter-spacing: 1.8px; }
-    .name { fill: #1f2328; font: 700 38px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
-    .type { fill: #1f2328; font: 600 27px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
-    .meta { fill: #656d76; font: 500 15px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
-    .pill { fill: #ffffff; stroke: #d8dee4; stroke-width: 1; }
-    .pillText { fill: #3d444d; font: 600 12px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
-    .cursor { fill: #0969da; animation: blink .82s steps(1,end) infinite; }
-    @keyframes blink { 0%,48%{opacity:1} 49%,100%{opacity:0} }
+    .primary { fill:#1f2328; font:700 31px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+    .line { fill:#3d444d; font:500 21px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+    .accent { fill:#0969da; font:700 21px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+    .muted { fill:#656d76; font:500 19px -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+    .cursor { fill:#0969da; animation: blink .55s steps(1,end) infinite; }
+    @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
     @media (prefers-color-scheme: dark) {
-      .panel { fill:#0d1117; stroke:#30363d; }
-      .name,.type { fill:#f0f6fc; }
-      .kicker,.meta { fill:#8b949e; }
-      .pill { fill:#161b22; stroke:#30363d; }
-      .pillText { fill:#c9d1d9; }
+      .primary { fill:#f0f6fc; }
+      .line { fill:#c9d1d9; }
+      .accent { fill:#58a6ff; }
+      .muted { fill:#8b949e; }
+      .cursor { fill:#58a6ff; }
     }
   </style>
-  <rect class="panel" x="1" y="1" width="958" height="308" rx="26"/>
-  <circle cx="790" cy="35" r="155" fill="url(#orb1)"/>
-  <circle cx="918" cy="245" r="180" fill="url(#orb2)"/>
-  <path d="M710 22 C805 82, 855 64, 944 112" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".30"/>
-  <path d="M735 278 C820 222, 862 241, 945 193" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".20"/>
-  <rect x="74" y="48" width="48" height="4" rx="2" fill="url(#accent)"/>
-  <text class="kicker" x="74" y="79">PAUL BOYKO / COMPUTER SCIENCE</text>
-  <text class="name" x="74" y="126">Building thoughtful software.</text>
-  <text class="type" x="74" y="180" clip-path="url(#typeClip)">Software shaped by real data.</text>
-  <text class="type" x="74" y="180" clip-path="url(#typeClip2)">Models tested beyond the demo.</text>
-  <text class="type" x="74" y="180" clip-path="url(#typeClip3)">Interactive systems in C++.</text>
-  <text class="type" x="74" y="180" clip-path="url(#typeClip4)">Research built to be measured.</text>
-  <rect class="cursor" x="74" y="151" width="3" height="34" rx="1">
-    <animate attributeName="x" dur="18s" repeatCount="indefinite" values="74;74;470;470;74;74;74;518;518;74;74;74;74;500;500;74;74;510;510;74;74;74;74;74;74;74;74" keyTimes="0;0.02;0.10;0.19;0.23;0.25;0.27;0.35;0.44;0.48;0.50;0.52;0.60;0.69;0.73;0.75;0.77;0.85;0.94;0.98;0.985;0.99;0.992;0.994;0.996;0.998;1"/>
-  </rect>
-  <text class="meta" x="74" y="216">UC Davis · software engineering · machine learning · systems</text>
-  <g transform="translate(74 244)">
-    <rect class="pill" x="0" y="0" width="79" height="32" rx="16"/>
-    <text class="pillText" x="39.5" y="20" text-anchor="middle">Python</text>
-    <rect class="pill" x="89" y="0" width="68" height="32" rx="16"/>
-    <text class="pillText" x="123" y="20" text-anchor="middle">C++</text>
-    <rect class="pill" x="167" y="0" width="118" height="32" rx="16"/>
-    <text class="pillText" x="226" y="20" text-anchor="middle">FastAPI</text>
-    <rect class="pill" x="295" y="0" width="126" height="32" rx="16"/>
-    <text class="pillText" x="358" y="20" text-anchor="middle">TypeScript</text>
+
+  <defs>
+    <clipPath id="c1"><rect x="18" y="10" width="0" height="42"><animate attributeName="width" dur="8s" repeatCount="indefinite" values="0;0;360;360;360;360;360;360;360;0" keyTimes="0;0.02;0.10;0.18;0.28;0.38;0.48;0.80;0.96;1"/></rect></clipPath>
+    <clipPath id="c2"><rect x="18" y="52" width="0" height="36"><animate attributeName="width" dur="8s" repeatCount="indefinite" values="0;0;0;470;470;470;470;470;470;0" keyTimes="0;0.02;0.10;0.18;0.28;0.38;0.48;0.80;0.96;1"/></rect></clipPath>
+    <clipPath id="c3"><rect x="18" y="94" width="0" height="36"><animate attributeName="width" dur="8s" repeatCount="indefinite" values="0;0;0;0;650;650;650;650;650;0" keyTimes="0;0.02;0.10;0.18;0.28;0.38;0.48;0.80;0.96;1"/></rect></clipPath>
+    <clipPath id="c4"><rect x="18" y="136" width="0" height="36"><animate attributeName="width" dur="8s" repeatCount="indefinite" values="0;0;0;0;0;555;555;555;555;0" keyTimes="0;0.02;0.10;0.18;0.28;0.38;0.48;0.80;0.96;1"/></rect></clipPath>
+    <clipPath id="c5"><rect x="18" y="178" width="0" height="40"><animate attributeName="width" dur="8s" repeatCount="indefinite" values="0;0;0;0;0;0;790;790;790;0" keyTimes="0;0.02;0.10;0.18;0.28;0.38;0.48;0.80;0.96;1"/></rect></clipPath>
+  </defs>
+
+  <g clip-path="url(#c1)">
+    <text class="accent" x="18" y="40">/</text>
+    <text class="primary" x="48" y="40">Paul Boyko</text>
   </g>
+
+  <g clip-path="url(#c2)">
+    <text class="accent" x="18" y="79">—</text>
+    <text class="line" x="48" y="79">Computer Science @ UC Davis</text>
+  </g>
+
+  <g clip-path="url(#c3)">
+    <text class="accent" x="18" y="121">/</text>
+    <text class="line" x="48" y="121">Software Engineering · Machine Learning · Systems</text>
+  </g>
+
+  <g clip-path="url(#c4)">
+    <text class="accent" x="18" y="163">—</text>
+    <text class="line" x="48" y="163">Python / C++ / TypeScript / FastAPI</text>
+  </g>
+
+  <g clip-path="url(#c5)">
+    <text class="accent" x="18" y="205">/</text>
+    <text class="muted" x="48" y="205">building software that can be tested, measured, and improved.</text>
+  </g>
+
+  <rect class="cursor" x="18" y="222" width="42" height="2" rx="1"/>
 </svg>
