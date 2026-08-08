@@ -1,40 +1,59 @@
-<svg viewBox="0 0 960 270" width="960" height="270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ASCII introduction for Paul Boyko">
+<svg viewBox="0 0 960 365" width="960" height="365" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Detailed ASCII profile for Paul Boyko">
   <style>
-    .ascii { fill:#1f2328; font:600 17px SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace; white-space:pre; }
-    .meta { fill:#57606a; font:500 17px SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace; white-space:pre; }
-    .accent { fill:#0969da; font:600 17px SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace; white-space:pre; }
-    .cursor { fill:#0969da; opacity:0; }
+    .row {
+      font: 500 7.35px SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+      white-space: pre;
+      opacity: 0;
+      animation: reveal .01s forwards;
+    }
+    .frame { fill:#8c959f; }
+    .name { fill:#1f2328; font-weight:700; }
+    .accent { fill:#0969da; font-weight:700; }
+    .body { fill:#3d444d; }
+    .muted { fill:#6e7781; }
+    @keyframes reveal { to { opacity:1; } }
     @media (prefers-color-scheme: dark) {
-      .ascii { fill:#f0f6fc; }
-      .meta { fill:#8b949e; }
-      .accent,.cursor { fill:#58a6ff; }
+      .frame { fill:#484f58; }
+      .name { fill:#f0f6fc; }
+      .accent { fill:#58a6ff; }
+      .body { fill:#c9d1d9; }
+      .muted { fill:#8b949e; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .row { opacity:1; animation:none; }
     }
   </style>
-
-  <defs>
-    <clipPath id="l1"><rect x="18" y="10" width="0" height="24"><animate attributeName="width" from="0" to="920" dur="0.16s" begin="0.05s" fill="freeze"/></rect></clipPath>
-    <clipPath id="l2"><rect x="18" y="36" width="0" height="24"><animate attributeName="width" from="0" to="920" dur="0.16s" begin="0.20s" fill="freeze"/></rect></clipPath>
-    <clipPath id="l3"><rect x="18" y="62" width="0" height="24"><animate attributeName="width" from="0" to="920" dur="0.16s" begin="0.35s" fill="freeze"/></rect></clipPath>
-    <clipPath id="l4"><rect x="18" y="88" width="0" height="24"><animate attributeName="width" from="0" to="920" dur="0.16s" begin="0.50s" fill="freeze"/></rect></clipPath>
-    <clipPath id="l5"><rect x="18" y="114" width="0" height="24"><animate attributeName="width" from="0" to="920" dur="0.16s" begin="0.65s" fill="freeze"/></rect></clipPath>
-    <clipPath id="l6"><rect x="18" y="140" width="0" height="24"><animate attributeName="width" from="0" to="920" dur="0.16s" begin="0.80s" fill="freeze"/></rect></clipPath>
-    <clipPath id="m1"><rect x="18" y="180" width="0" height="24"><animate attributeName="width" from="0" to="920" dur="0.22s" begin="1.00s" fill="freeze"/></rect></clipPath>
-    <clipPath id="m2"><rect x="18" y="206" width="0" height="24"><animate attributeName="width" from="0" to="920" dur="0.24s" begin="1.18s" fill="freeze"/></rect></clipPath>
-    <clipPath id="m3"><rect x="18" y="232" width="0" height="24"><animate attributeName="width" from="0" to="920" dur="0.26s" begin="1.38s" fill="freeze"/></rect></clipPath>
-  </defs>
-
-  <text class="ascii" x="18" y="28" clip-path="url(#l1)"> ____              _   ____              _</text>
-  <text class="ascii" x="18" y="54" clip-path="url(#l2)">|  _ \ __ _ _   _| | | __ )  ___  _   _| | _____</text>
-  <text class="ascii" x="18" y="80" clip-path="url(#l3)">| |_) / _` | | | | | |  _ \ / _ \| | | | |/ / _ \</text>
-  <text class="ascii" x="18" y="106" clip-path="url(#l4)">|  __/ (_| | |_| | | | |_) | (_) | |_| |   &lt; (_) |</text>
-  <text class="ascii" x="18" y="132" clip-path="url(#l5)">|_|   \__,_|\__,_|_| |____/ \___/ \__, |_|\_\___/</text>
-  <text class="ascii" x="18" y="158" clip-path="url(#l6)">                                     |___/</text>
-
-  <text class="accent" x="18" y="198" clip-path="url(#m1)">&gt; computer science @ uc davis</text>
-  <text class="meta" x="18" y="224" clip-path="url(#m2)">&gt; software engineering / machine learning / systems</text>
-  <text class="meta" x="18" y="250" clip-path="url(#m3)">&gt; python / c++ / typescript / fastapi</text>
-
-  <rect class="cursor" x="18" y="260" width="10" height="2">
-    <animate attributeName="opacity" values="0;1;0;1;0;1" dur="2.4s" begin="1.62s" repeatCount="indefinite"/>
-  </rect>
+  <text class="row frame" x="12" y="18.0" style="animation-delay:0.050s">+----------------------------------------------------------------------------------------------------------------------+</text>
+  <text class="row accent" x="12" y="28.2" style="animation-delay:0.085s">|  PB/01  ::  PAUL BOYKO  ::  COMPUTER SCIENCE / UC DAVIS                                           build: 2026.08  |</text>
+  <text class="row frame" x="12" y="38.4" style="animation-delay:0.120s">+----------------------------------------------------------------------------------------------------------------------+</text>
+  <text class="row muted" x="12" y="48.6" style="animation-delay:0.155s">|                                                                                                                      |</text>
+  <text class="row name" x="12" y="58.8" style="animation-delay:0.190s">|   ########    ###    ##    ## ##          ########   #######  ##    ## ##    ##  #######                             |</text>
+  <text class="row name" x="12" y="69.0" style="animation-delay:0.225s">|   ##     ##  ## ##   ##    ## ##          ##     ## ##     ##  ##  ##  ##   ##  ##     ##                            |</text>
+  <text class="row name" x="12" y="79.2" style="animation-delay:0.260s">|   ##     ## ##   ##  ##    ## ##          ##     ## ##     ##   ####    ## ##   ##     ##                            |</text>
+  <text class="row name" x="12" y="89.4" style="animation-delay:0.295s">|   ######## ##     ## ##    ## ##          ########  ##     ##    ##      ###    ##     ##                            |</text>
+  <text class="row name" x="12" y="99.6" style="animation-delay:0.330s">|   ##       ######### ##    ## ##          ##     ## ##     ##    ##     ## ##   ##     ##                            |</text>
+  <text class="row name" x="12" y="109.8" style="animation-delay:0.365s">|   ##       ##     ## ##    ## ##          ##     ## ##     ##    ##    ##   ##  ##     ##                            |</text>
+  <text class="row name" x="12" y="120.0" style="animation-delay:0.400s">|   ##       ##     ##  ######  ########    ########   #######     ##   ##     ##  #######                             |</text>
+  <text class="row muted" x="12" y="130.2" style="animation-delay:0.435s">|                                                                                                                      |</text>
+  <text class="row muted" x="12" y="140.4" style="animation-delay:0.470s">|   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  |</text>
+  <text class="row muted" x="12" y="150.6" style="animation-delay:0.505s">|                                                                                                                      |</text>
+  <text class="row accent" x="12" y="160.8" style="animation-delay:0.540s">|   [ focus ]                                                                                     [ signal ]            |</text>
+  <text class="row body" x="12" y="171.0" style="animation-delay:0.575s">|     software engineering ----+                                                           .---&gt; data                  |</text>
+  <text class="row body" x="12" y="181.2" style="animation-delay:0.610s">|     machine learning --------+--&gt; build --&gt; test --&gt; measure --&gt; iterate ---------------+----&gt; systems               |</text>
+  <text class="row body" x="12" y="191.4" style="animation-delay:0.645s">|     simulation --------------+                                                           &#x27;---&gt; research              |</text>
+  <text class="row muted" x="12" y="201.6" style="animation-delay:0.680s">|                                                                                                                      |</text>
+  <text class="row accent" x="12" y="211.8" style="animation-delay:0.715s">|   [ stack ]                                                                                     [ loop ]              |</text>
+  <text class="row body" x="12" y="222.0" style="animation-delay:0.750s">|     python / c++ / typescript / fastapi                                            collect -&gt; model -&gt; validate       |</text>
+  <text class="row body" x="12" y="232.2" style="animation-delay:0.785s">|                                                                                           ^                 |         |</text>
+  <text class="row body" x="12" y="242.4" style="animation-delay:0.820s">|                                                                                           &#x27;------ repeat ---&#x27;         |</text>
+  <text class="row muted" x="12" y="252.6" style="animation-delay:0.855s">|                                                                                                                      |</text>
+  <text class="row body" x="12" y="262.8" style="animation-delay:0.890s">|               .                 .                         .                    .                                  .    |</text>
+  <text class="row body" x="12" y="273.0" style="animation-delay:0.925s">|          .----+----.       .----+----.              .-----+-----.        .-----+-----.                                  |</text>
+  <text class="row body" x="12" y="283.2" style="animation-delay:0.960s">|          |  INPUT  |------&gt;| PROCESS |-------------&gt;|  TEST     |-------&gt;|  RESULT   |                                  |</text>
+  <text class="row body" x="12" y="293.4" style="animation-delay:0.995s">|          &#x27;----+----&#x27;       &#x27;----+----&#x27;              &#x27;-----+-----&#x27;        &#x27;-----+-----&#x27;                                  |</text>
+  <text class="row body" x="12" y="303.6" style="animation-delay:1.030s">|               |                 |                         |                    |                                        |</text>
+  <text class="row body" x="12" y="313.8" style="animation-delay:1.065s">|             ..:..             ..:..                     ..:..                ..:..                                     |</text>
+  <text class="row muted" x="12" y="324.0" style="animation-delay:1.100s">|                                                                                                                      |</text>
+  <text class="row accent" x="12" y="334.2" style="animation-delay:1.135s">|   / projects live below / more soon / build small / test hard / keep what survives                                   |</text>
+  <text class="row frame" x="12" y="344.4" style="animation-delay:1.170s">+----------------------------------------------------------------------------------------------------------------------+</text>
 </svg>
