@@ -1,49 +1,67 @@
-<svg viewBox="0 0 900 170" width="900" height="170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated introduction">
+<svg viewBox="0 0 960 116" width="960" height="116" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated description of what Paul builds">
   <style>
-    .main { fill: #1f2328; font: 600 28px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .sub { fill: #57606a; font: 400 21px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .cursor { fill: #57606a; animation: blink .8s steps(1,end) infinite; }
-    @media (prefers-color-scheme: dark) {
-      .main { fill: #f0f6fc; }
-      .sub, .cursor { fill: #8b949e; }
+    .label {
+      fill: #656d76;
+      font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      letter-spacing: 1.8px;
     }
-    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    .line {
+      fill: #1f2328;
+      font: 600 27px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    .accent { fill: #0969da; }
+    .fallback { display: none; }
+    @media (prefers-color-scheme: dark) {
+      .label { fill: #8b949e; }
+      .line { fill: #f0f6fc; }
+      .accent { fill: #58a6ff; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .animated { display: none; }
+      .fallback { display: inline; }
+    }
   </style>
 
+  <circle class="accent" cx="8" cy="17" r="4"/>
+  <text class="label" x="22" y="21">CURRENTLY BUILDING</text>
+
   <defs>
-    <clipPath id="line1clip">
-      <rect x="70" y="18" width="0" height="42">
-        <animate attributeName="width" dur="9s" repeatCount="indefinite"
-          values="0;0;330;330;330;330;330;330;330"
-          keyTimes="0;0.04;0.22;0.40;0.55;0.70;0.82;0.94;1" />
+    <clipPath id="clip1">
+      <rect x="0" y="42" width="0" height="48">
+        <animate attributeName="width" dur="20s" repeatCount="indefinite"
+          values="0;0;500;500;0;0;0;0;0;0;0;0;0;0;0;0;0"
+          keyTimes="0;0.02;0.13;0.20;0.24;0.25;0.26;0.37;0.44;0.48;0.50;0.51;0.62;0.69;0.73;0.75;1"/>
       </rect>
     </clipPath>
-    <clipPath id="line2clip">
-      <rect x="70" y="65" width="0" height="36">
-        <animate attributeName="width" dur="9s" repeatCount="indefinite"
-          values="0;0;0;0;430;430;430;430;430"
-          keyTimes="0;0.22;0.25;0.28;0.52;0.70;0.82;0.94;1" />
+    <clipPath id="clip2">
+      <rect x="0" y="42" width="0" height="48">
+        <animate attributeName="width" dur="20s" repeatCount="indefinite"
+          values="0;0;0;0;0;0;575;575;0;0;0;0;0;0;0;0;0"
+          keyTimes="0;0.02;0.13;0.20;0.24;0.26;0.37;0.44;0.48;0.50;0.51;0.62;0.69;0.73;0.75;0.76;1"/>
       </rect>
     </clipPath>
-    <clipPath id="line3clip">
-      <rect x="70" y="108" width="0" height="36">
-        <animate attributeName="width" dur="9s" repeatCount="indefinite"
-          values="0;0;0;0;0;0;610;610;610"
-          keyTimes="0;0.22;0.40;0.52;0.55;0.58;0.82;0.94;1" />
+    <clipPath id="clip3">
+      <rect x="0" y="42" width="0" height="48">
+        <animate attributeName="width" dur="20s" repeatCount="indefinite"
+          values="0;0;0;0;0;0;0;0;0;0;0;530;530;0;0;0;0"
+          keyTimes="0;0.02;0.13;0.20;0.24;0.26;0.37;0.44;0.48;0.50;0.51;0.62;0.69;0.73;0.75;0.76;1"/>
+      </rect>
+    </clipPath>
+    <clipPath id="clip4">
+      <rect x="0" y="42" width="0" height="48">
+        <animate attributeName="width" dur="20s" repeatCount="indefinite"
+          values="0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;615;615;0"
+          keyTimes="0;0.02;0.13;0.20;0.24;0.26;0.37;0.44;0.48;0.50;0.51;0.62;0.69;0.73;0.75;0.86;0.95;1"/>
       </rect>
     </clipPath>
   </defs>
 
-  <text class="main" x="70" y="50" clip-path="url(#line1clip)">Hi, I’m Paul.</text>
-  <text class="sub" x="70" y="94" clip-path="url(#line2clip)">Computer Science @ UC Davis</text>
-  <text class="sub" x="70" y="137" clip-path="url(#line3clip)">I build software, simulations, and machine-learning systems.</text>
+  <g class="animated">
+    <text class="line" x="0" y="79" clip-path="url(#clip1)">Data-driven software that can be tested.</text>
+    <text class="line" x="0" y="79" clip-path="url(#clip2)">Machine-learning systems with measurable feedback.</text>
+    <text class="line" x="0" y="79" clip-path="url(#clip3)">Interactive simulations and visual tools in C++.</text>
+    <text class="line" x="0" y="79" clip-path="url(#clip4)">Research workflows built around rigorous validation.</text>
+  </g>
 
-  <rect class="cursor" x="70" y="119" width="3" height="24" rx="1">
-    <animate attributeName="x" dur="9s" repeatCount="indefinite"
-      values="70;70;400;70;70;500;70;70;680"
-      keyTimes="0;0.04;0.22;0.25;0.28;0.52;0.55;0.58;0.82" />
-    <animate attributeName="y" dur="9s" repeatCount="indefinite"
-      values="25;25;25;72;72;72;115;115;115"
-      keyTimes="0;0.04;0.22;0.25;0.28;0.52;0.55;0.58;0.82" />
-  </rect>
+  <text class="line fallback" x="0" y="79">Data-driven software that can be tested.</text>
 </svg>
